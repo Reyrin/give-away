@@ -1,0 +1,13 @@
+@import '../variables';
+
+.items-left {
+  width: 144px;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  color: $white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #E40000;
+}

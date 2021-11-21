@@ -5,6 +5,10 @@ import buyIcon from "./assets/img/buy.svg";
 import reviewIcon from "./assets/img/review.svg";
 import moneyIcon from "./assets/img/money.svg";
 
+import star from "./assets/img/star.svg";
+
+import amazonStore from "./assets/img/amazon_prime_logo.svg";
+
 function App() {
     return (
         <div className="wrapper">
@@ -26,7 +30,21 @@ function App() {
                     <div className="product__item">
                         <div className="product__slider"></div>
                         <div className="product__info">
-                            <div className="product__reviews"></div>
+                            <div className="product__reviews">
+                                <div className="product__best-seller">
+                                    Best seller
+                                </div>
+                                <div className="product__stars">
+                                    <img src={star} alt="Star-1" />
+                                    <img src={star} alt="Star-2" />
+                                    <img src={star} alt="Star-3" />
+                                    <img src={star} alt="Star-4" />
+                                    <img src={star} alt="Star-5" />
+                                </div>
+                                <div className="product__quantity">
+                                    (1731 reviews)
+                                </div>
+                            </div>
                             <h3 className="product__title">
                                 Acne Treatment Cystic Acne heals, repairs &
                                 renews
@@ -38,13 +56,20 @@ function App() {
                                     plump, dewy, glowing.
                                 </p>
                             </div>
-                            <p className="product__items-left">
-                                items left: 12
-                            </p>
+                            <div className="items-left">items left: 12</div>
                             <div className="product__line"></div>
-                            <div className="product__price"></div>
+                            <div className="price">
+                                <div className="price__old-price">us$25.89</div>
+                                <div className="price__current-price">
+                                    $0.00 FREE
+                                </div>
+                            </div>
                             <button className="btn">Select</button>
-                            <img src="" alt="" className="product__store" />
+                            <img
+                                src={amazonStore}
+                                alt="Amazone Store"
+                                className="product__store"
+                            />
                         </div>
                     </div>
                     <div className="overview">
