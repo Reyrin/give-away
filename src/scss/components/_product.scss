@@ -1,0 +1,24 @@
+@import '../variables';
+
+.product {
+  padding: 50px 50px 25px;
+
+  background-color: $white;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__slider {
+    flex-basis: 55%;
+
+    height: 560px;
+
+    background-color: pink;
+  }
+
+  &__info {
+    flex-basis: 40%;
+  }
+}

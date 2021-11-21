@@ -22,7 +22,78 @@ function App() {
                 />
             </div>
             <main>
-                <section className="product"></section>
+                <section className="product">
+                    <div className="product__item">
+                        <div className="product__slider"></div>
+                        <div className="product__info">
+                            <div className="product__reviews"></div>
+                            <h3 className="product__title">
+                                Acne Treatment Cystic Acne heals, repairs &
+                                renews
+                            </h3>
+                            <div className="product__description">
+                                <h4>Description:</h4>
+                                <p>
+                                    Addictively refreshing gel-cream leaves skin
+                                    plump, dewy, glowing.
+                                </p>
+                            </div>
+                            <p className="product__items-left">
+                                items left: 12
+                            </p>
+                            <div className="product__line"></div>
+                            <div className="product__price"></div>
+                            <button className="btn">Select</button>
+                            <img src="" alt="" className="product__store" />
+                        </div>
+                    </div>
+                    <div className="overview">
+                        <h2 className="overview__title">Overview</h2>
+                        <ul className="overview__list">
+                            <li>
+                                Who It's For
+                                <ul className="overview__sublist">
+                                    <li>
+                                        Very Dry, Dry, Dry Combination Skin
+                                        (Type 1, 2)
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                What It Is
+                                <ul className="overview__sublist">
+                                    <li>
+                                        Step 3 in our customized 3-Step Skincare
+                                        System.
+                                    </li>
+                                    <li>
+                                        Dermatologist-developed face moisturizer
+                                        softens, smooths, improves. Leaves skin
+                                        glowing.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                What It Does
+                                <ul className="overview__sublist overview__sublist--list-type">
+                                    <li>
+                                        Silky lotion delivers 8-hour hydration.
+                                    </li>
+                                    <li>Slips on easily, absorbs quickly.</li>
+                                    <li>
+                                        Helps strengthen skin’s own moisture
+                                        barrier so more moisture stays in.{" "}
+                                        <span>
+                                            Skin that holds onto moisture has a
+                                            youthful-looking glow.
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p className="overview__read-more">Read more...</p>
+                    </div>
+                </section>
                 <section className="work">
                     <h2 className="work__title">How does it work?</h2>
                     <div className="work__items">
@@ -75,7 +146,7 @@ function App() {
                             <p className="work__description">Choose product</p>
                         </div>
 
-						<div className="work__item">
+                        <div className="work__item">
                             <div className="work__circle">
                                 <img
                                     src={buyIcon}
@@ -101,7 +172,7 @@ function App() {
                             <p className="work__description">Buy product</p>
                         </div>
 
-						<div className="work__item">
+                        <div className="work__item">
                             <div className="work__circle">
                                 <img
                                     src={reviewIcon}
@@ -124,10 +195,12 @@ function App() {
                                     />
                                 </svg>
                             </div>
-                            <p className="work__description">Test and share review</p>
+                            <p className="work__description">
+                                Test and share review
+                            </p>
                         </div>
 
-						<div className="work__item">
+                        <div className="work__item">
                             <div className="work__circle">
                                 <img
                                     src={moneyIcon}
@@ -135,7 +208,9 @@ function App() {
                                     className="work__img"
                                 />
                             </div>
-                            <p className="work__description">Get 100% money back</p>
+                            <p className="work__description">
+                                Get 100% money back
+                            </p>
                         </div>
                     </div>
                 </section>
