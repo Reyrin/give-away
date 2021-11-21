@@ -1,0 +1,33 @@
+@import '../variables';
+
+.footer {
+  background-color: #F5F5F5;
+
+  padding: 30px 50px 50px;
+  display: flex;
+
+  h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer>div {
+  flex-basis: 33.33%;
+}

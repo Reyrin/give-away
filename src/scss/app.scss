@@ -1,0 +1,21 @@
+@import 'fonts';
+@import 'variables';
+@import 'libs/normalize';
+
+@import 'components/all';
+
+body {
+  color: $black;
+  background-color: $background;
+  padding-top: 20px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
