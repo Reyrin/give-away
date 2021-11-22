@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import Slider from './Slider'
+import Slider from "./Slider";
+import Button from "./ui/Button";
 
 import star from "./../assets/img/star.svg";
 import amazonStore from "./../assets/img/amazon_prime_logo.svg";
@@ -37,7 +39,11 @@ function ProductItem() {
                     <div className="price__old-price">us$25.89</div>
                     <div className="price__current-price">$0.00 FREE</div>
                 </div>
-                <button className="btn">Select</button>
+
+                <Link to="/step-1">
+                    <Button text={"Select"} />
+                </Link>
+
                 <img
                     src={amazonStore}
                     alt="Amazone Store"

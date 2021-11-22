@@ -1,16 +1,27 @@
 @import '../variables';
 
 .btn {
-  color: $white;
-  font-weight: bold;
-  font-size: 18px;
+    color: $white;
+    font-weight: bold;
+    font-size: 18px;
 
-  background-color: $black;
-  text-transform: uppercase;
-  border-radius: 5px;
-  border: none;
+    background-color: $black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
 
-  padding: 19px 158px;
+    padding: 19px 0;
 
-  cursor: pointer;
+    width: 380px;
+
+    cursor: pointer;
+
+    &--small {
+        width: 179px;
+        margin-right: 21px;
+    }
+
+    &:disabled {
+        opacity: 0.6;
+    }
 }

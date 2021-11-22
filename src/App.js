@@ -1,4 +1,12 @@
 import React from "react";
+import { Route } from 'react-router-dom';
+
+import Stepper from './components/ui/Stepper'
+import Step1 from './components/steps/Step1'
+import Step2 from './components/steps/Step2'
+import Step3 from './components/steps/Step3'
+import Step4 from './components/steps/Step4'
+import Step5 from './components/steps/Step5'
 
 import Header from "./components/Header";
 import ProductItem from "./components/ProductItem";
@@ -17,10 +25,48 @@ function App() {
         <div className="wrapper">
             <Header />
             <main>
-                <section className="product">
-                    <ProductItem />
-                    <Overview />
-                </section>
+				<Route path={'/'} exact>
+					<section className="product">
+						<ProductItem />
+						<Overview />
+					</section>
+				</Route>
+                
+				<Route path={'/step-1'} exact>
+					<section className="steps">
+                        <Stepper />
+						<Step1 />
+					</section>
+				</Route>
+
+                <Route path={'/step-2'} exact>
+					<section className="steps">
+                        <Stepper />
+						<Step2 />
+					</section>
+				</Route>
+
+                <Route path={'/step-3'} exact>
+					<section className="steps">
+                        <Stepper />
+						<Step3 />
+					</section>
+				</Route>
+
+                <Route path={'/step-4'} exact>
+					<section className="steps">
+                        <Stepper />
+						<Step4 />
+					</section>
+				</Route>
+
+                <Route path={'/step-5'} exact>
+					<section className="steps">
+                        <Stepper />
+						<Step5 />
+					</section>
+				</Route>
+
                 <section className="work">
                     <h2 className="work__title">How does it work?</h2>
                     <div className="work__items">
