@@ -1,95 +1,131 @@
 @import '../variables';
 
 .product {
-  padding: 50px 50px 25px;
+	padding: 50px 50px 25px;
 
-  background-color: $white;
+	background-color: $white;
 
-  &__item {
-    display: flex;
-    justify-content: space-between;
-  }
+	&__item {
+		display: flex;
+		justify-content: space-between;
+	}
 
-  &__slider {
-    flex-basis: 55%;
+	&__slider {
+		flex-basis: 55%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 
-    height: 560px;
+		height: 560px; //скорее всего нужно будет убрать высоту
 
-    background-color: pink;
-  }
+		background-color: $white;
+		border-radius: 5px;
+		box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
 
-  &__info {
-    flex-basis: 40%;
-  }
+		#product__thumbSlider {
+			flex-basis: 120px;
+			height: 390px;
+			cursor: pointer;
 
-  &__reviews {
-    display: flex;
-    align-items: center;
+			.swiper-slide {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 
-    margin-bottom: 20px;
-  }
+				width: 120px;
+				height: 120px;
+				background-color: #F5F5F5;
+				border: 1px solid #DDDDDD;
+				border-radius: 3px;
+			}
+		}
 
-  &__best-seller {
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
+		#product__main-slider {
+			flex-basis: 440px;
+			height: 440px;
+			cursor: grab;
 
-    flex: 1;
-  }
+			.swiper-slide {
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
 
-  &__stars {
-    img {
-      margin: 0 1px;
-    }
-  }
+	&__info {
+		flex-basis: 40%;
+	}
 
-  &__quantity {
-    font-size: 18px;
-    opacity: 0.6;
+	&__reviews {
+		display: flex;
+		align-items: center;
 
-    margin-left: 9px;
-  }
+		margin-bottom: 20px;
+	}
 
-  &__title {
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
+	&__best-seller {
+		font-weight: bold;
+		font-size: 18px;
+		text-transform: uppercase;
 
-    margin-bottom: 20px;
-  }
+		flex: 1;
+	}
 
-  &__description {
-    line-height: 21.92px;
+	&__stars {
+		img {
+			margin: 0 1px;
+		}
+	}
 
-    margin-bottom: 30px;
+	&__quantity {
+		font-size: 18px;
+		opacity: 0.6;
 
-    h4 {
-      font-weight: bold;
-      font-size: 18px;
+		margin-left: 9px;
+	}
 
-      margin-bottom: 6px;
-    }
+	&__title {
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 30px;
 
-    p {
-      font-size: 18px;
-      opacity: 0.6;
+		margin-bottom: 20px;
+	}
 
-      max-width: 352px;
-    }
-  }
+	&__description {
+		line-height: 21.92px;
 
-  &__line {
-    width: 380px;
-    height: 1px;
-    background-color:#C4C4C4;
+		margin-bottom: 30px;
 
-    margin: 30px 0 20px;
-  }
+		h4 {
+			font-weight: bold;
+			font-size: 18px;
 
-  &__store {
-    display: block;
-    position: relative;
-    top: 20px;
-    left: 19%
-  }
+			margin-bottom: 6px;
+		}
+
+		p {
+			font-size: 18px;
+			opacity: 0.6;
+
+			max-width: 352px;
+		}
+	}
+
+	&__line {
+		width: 380px;
+		height: 1px;
+		background-color: #C4C4C4;
+
+		margin: 30px 0 20px;
+	}
+
+	&__store {
+		display: block;
+		position: relative;
+		top: 20px;
+		left: 19%
+	}
 }

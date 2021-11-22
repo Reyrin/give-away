@@ -1,12 +1,14 @@
 import React from "react";
 
+import Slider from './Slider'
+
 import star from "./../assets/img/star.svg";
 import amazonStore from "./../assets/img/amazon_prime_logo.svg";
 
 function ProductItem() {
     return (
         <div className="product__item">
-            <div className="product__slider"></div>
+            <Slider />
             <div className="product__info">
                 <div className="product__reviews">
                     <div className="product__best-seller">Best seller</div>

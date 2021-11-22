@@ -18,17 +18,17 @@ function App() {
             <Header />
             <main>
                 <section className="product">
-					<ProductItem />
+                    <ProductItem />
                     <Overview />
                 </section>
                 <section className="work">
                     <h2 className="work__title">How does it work?</h2>
                     <div className="work__items">
-						<WorkItem text={true} />
-						<WorkItem content={chooseIcon} descr={'Choose product'} />
-						<WorkItem content={buyIcon} descr={'Buy product'} />
-						<WorkItem content={reviewIcon} descr={'Test and share review'} />
-						<WorkItem content={moneyIcon} descr={'Get 100% money back'} arrow={false} />                
+                        <WorkItem text={true} />
+                        <WorkItem content={chooseIcon} descr={"Choose product"} />
+                        <WorkItem content={buyIcon} descr={"Buy product"} />
+                        <WorkItem content={reviewIcon} descr={"Test and share review"} />
+                        <WorkItem content={moneyIcon} descr={"Get 100% money back"} arrow={false} />
                     </div>
                 </section>
             </main>
