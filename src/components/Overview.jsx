@@ -13,7 +13,7 @@ function Overview() {
                 </li>
                 <li>
                     What It Is
-                    <ul className="overview__sublist">
+                    <ul className="overview__sublist overview__sublist--w355">
                         <li>
                             Step 3 in our customized 3-Step Skincare System.
                         </li>

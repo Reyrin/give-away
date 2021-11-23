@@ -1,63 +1,106 @@
 @import '../variables';
 
 .overview {
-  padding-top: 50px;
+    padding-top: 50px;
 
-  &__title {
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 58.46px;
+    &__title {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 58.46px;
 
-    margin-bottom: 10px;
-  }
-
-  &__list {
-    max-width: 650px;
-  }
-
-  &__list li {
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  &__sublist {
-    margin: 10px 0 20px;
-
-    li {
-      position: relative;
-      font-weight: normal;
-      font-size: 18px;
-      opacity: 0.6;
-    }
-  }
-
-  &__sublist--list-type {
-    padding-left: 17px;
-    line-height: 26px;
-    margin-bottom: 14px;
-
-    span {
-      display: block;
-      line-height: 18px;
+        margin-bottom: 10px;
     }
 
-    li::before {
-      content: '';
-      position: absolute;
-      top: 14px;
-      left: -15px;
-      transform: translateY(-50%);
-      width: 5px;
-      height: 5px;
-      border-radius: 50%;
-      background-color: $black;
-      opacity: 0.6;
+    &__list {
+        max-width: 650px;
     }
-  }
 
-  &__read-more {
-    font-weight: bold;
-    font-size: 18px;
-    opacity: 0.6;
-  }
+    &__list li {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    &__sublist {
+        margin: 10px 0 20px;
+
+        li {
+            position: relative;
+            font-weight: normal;
+            font-size: 18px;
+            opacity: 0.6;
+        }
+    }
+
+    &__sublist--list-type {
+        padding-left: 17px;
+        line-height: 26px;
+        margin-bottom: 14px;
+
+        span {
+            display: block;
+            line-height: 18px;
+        }
+
+        li::before {
+            content: '';
+            position: absolute;
+            top: 14px;
+            left: -15px;
+            transform: translateY(-50%);
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: $black;
+            opacity: 0.6;
+        }
+    }
+
+    &__read-more {
+        font-weight: bold;
+        font-size: 18px;
+        opacity: 0.6;
+
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1024px) {
+    .overview {
+        &__title {
+            font-size: 30px;
+            line-height: 36.54px;
+
+            margin-bottom: 5px;
+        }
+
+        &__list {
+        }
+
+        &__list li {
+            font-size: 14px;
+            line-height: 17.05px;
+        }
+
+        &__sublist {
+            margin: 5px 0 10px;
+
+            li {
+                font-size: 14px;
+                line-height: 17.05px;
+            }
+
+            &--w355 {
+                max-width: 355px;
+            }
+        }
+
+        &__sublist--list-type {
+            max-width: 340px;
+        }
+
+        &__read-more {
+            font-size: 14px;
+            line-height: 17.05px;
+        }
+    }
 }

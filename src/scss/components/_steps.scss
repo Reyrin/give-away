@@ -1,14 +1,18 @@
 @import '../variables';
 
 .steps {
-    padding: 105px 52px 80px 66px;
+
     background-color: #fff;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    &__content {
+        padding: 105px 52px 80px 66px;
 
-    position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: relative;
+    }
 
     &__descr {
         margin-right: auto;

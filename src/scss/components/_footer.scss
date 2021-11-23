@@ -1,33 +1,66 @@
 @import '../variables';
 
 .footer {
-  background-color: #F5F5F5;
+    background-color: #F5F5F5;
 
-  padding: 30px 50px 50px;
-  display: flex;
+    &__content {
+        padding: 30px 50px 50px;
+        display: flex;
 
-  h3 {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  ul li {
-    font-size: 18px;
-    margin-bottom: 10px;
-
-
-
-    a:hover {
-      text-decoration: underline;
+        &>div {
+            flex-basis: 33.33%;
+        }
     }
-  }
 
-  ul li:last-child {
-    margin-bottom: 0;
-  }
+    h3 {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    ul li {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    ul li:last-child {
+        margin-bottom: 0;
+    }
 }
 
-.footer>div {
-  flex-basis: 33.33%;
-}
+// @media (max-width: 1024px) {
+//     .footer {
+//         &__content {
+//             padding: 30px 40px 40px;
+//         }
+
+//         h3 {
+//             font-size: 14px;
+//             line-height: 17.05px;
+//         }
+
+//         ul li {
+//             font-size: 14px;
+//             line-height: 17.05px;
+//         }
+//     }
+// }
+
+// @media (max-width: 760px) {
+//     .footer {
+//         &__content {
+//             padding: 30px 50px 20px;
+//             flex-wrap: wrap;
+
+//             &>div {
+//                 flex-basis: 50%;
+//                 margin-bottom: 20px;
+//             }
+//         }
+//     }
+
+// }
