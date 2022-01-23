@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/give-away/static/css/main.d703cf23.chunk.css",
+    "main.js": "/give-away/static/js/main.64dc1f1a.chunk.js",
+    "main.js.map": "/give-away/static/js/main.64dc1f1a.chunk.js.map",
+    "runtime-main.js": "/give-away/static/js/runtime-main.dfad0b00.js",
+    "runtime-main.js.map": "/give-away/static/js/runtime-main.dfad0b00.js.map",
+    "static/css/2.55a93b64.chunk.css": "/give-away/static/css/2.55a93b64.chunk.css",
+    "static/js/2.f023a11f.chunk.js": "/give-away/static/js/2.f023a11f.chunk.js",
+    "static/js/2.f023a11f.chunk.js.map": "/give-away/static/js/2.f023a11f.chunk.js.map",
+    "index.html": "/give-away/index.html",
+    "static/css/2.55a93b64.chunk.css.map": "/give-away/static/css/2.55a93b64.chunk.css.map",
+    "static/css/main.d703cf23.chunk.css.map": "/give-away/static/css/main.d703cf23.chunk.css.map",
+    "static/js/2.f023a11f.chunk.js.LICENSE.txt": "/give-away/static/js/2.f023a11f.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/give-away/static/media/ProximaNova-Regular.d97f8f32.eot",
+    "static/media/amazon_prime_logo.a1a688a8.svg": "/give-away/static/media/amazon_prime_logo.a1a688a8.svg",
+    "static/media/banner_picture.952f5f1e.png": "/give-away/static/media/banner_picture.952f5f1e.png",
+    "static/media/bg-img-1.98f1f740.png": "/give-away/static/media/bg-img-1.98f1f740.png",
+    "static/media/bg-img-2.56584faa.png": "/give-away/static/media/bg-img-2.56584faa.png",
+    "static/media/bigSlide-1.e52b40b4.png": "/give-away/static/media/bigSlide-1.e52b40b4.png",
+    "static/media/buy.d5884757.svg": "/give-away/static/media/buy.d5884757.svg",
+    "static/media/choose.d38f0d09.svg": "/give-away/static/media/choose.d38f0d09.svg",
+    "static/media/gift.0fe37ffd.svg": "/give-away/static/media/gift.0fe37ffd.svg",
+    "static/media/money.dbaf5dbe.svg": "/give-away/static/media/money.dbaf5dbe.svg",
+    "static/media/pressHere.a5b025a5.svg": "/give-away/static/media/pressHere.a5b025a5.svg",
+    "static/media/review.e4a75c32.svg": "/give-away/static/media/review.e4a75c32.svg",
+    "static/media/slide-1.2c7603e4.png": "/give-away/static/media/slide-1.2c7603e4.png",
+    "static/media/slide-2.b520fec0.png": "/give-away/static/media/slide-2.b520fec0.png",
+    "static/media/slide-3.af77a8ab.png": "/give-away/static/media/slide-3.af77a8ab.png",
+    "static/media/star.8ed92002.svg": "/give-away/static/media/star.8ed92002.svg",
+    "static/media/toAmazon.9f955584.svg": "/give-away/static/media/toAmazon.9f955584.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfad0b00.js",
+    "static/css/2.55a93b64.chunk.css",
+    "static/js/2.f023a11f.chunk.js",
+    "static/css/main.d703cf23.chunk.css",
+    "static/js/main.64dc1f1a.chunk.js"
+  ]
+}
