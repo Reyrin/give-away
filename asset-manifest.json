@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/give-away/static/css/main.d703cf23.chunk.css",
-    "main.js": "/give-away/static/js/main.5973af50.chunk.js",
-    "main.js.map": "/give-away/static/js/main.5973af50.chunk.js.map",
+    "main.js": "/give-away/static/js/main.97188954.chunk.js",
+    "main.js.map": "/give-away/static/js/main.97188954.chunk.js.map",
     "runtime-main.js": "/give-away/static/js/runtime-main.dfad0b00.js",
     "runtime-main.js.map": "/give-away/static/js/runtime-main.dfad0b00.js.map",
     "static/css/2.55a93b64.chunk.css": "/give-away/static/css/2.55a93b64.chunk.css",
-    "static/js/2.f023a11f.chunk.js": "/give-away/static/js/2.f023a11f.chunk.js",
-    "static/js/2.f023a11f.chunk.js.map": "/give-away/static/js/2.f023a11f.chunk.js.map",
+    "static/js/2.df690f7a.chunk.js": "/give-away/static/js/2.df690f7a.chunk.js",
+    "static/js/2.df690f7a.chunk.js.map": "/give-away/static/js/2.df690f7a.chunk.js.map",
     "index.html": "/give-away/index.html",
     "static/css/2.55a93b64.chunk.css.map": "/give-away/static/css/2.55a93b64.chunk.css.map",
     "static/css/main.d703cf23.chunk.css.map": "/give-away/static/css/main.d703cf23.chunk.css.map",
-    "static/js/2.f023a11f.chunk.js.LICENSE.txt": "/give-away/static/js/2.f023a11f.chunk.js.LICENSE.txt",
+    "static/js/2.df690f7a.chunk.js.LICENSE.txt": "/give-away/static/js/2.df690f7a.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/give-away/static/media/ProximaNova-Regular.d97f8f32.eot",
     "static/media/amazon_prime_logo.a1a688a8.svg": "/give-away/static/media/amazon_prime_logo.a1a688a8.svg",
     "static/media/banner_picture.952f5f1e.png": "/give-away/static/media/banner_picture.952f5f1e.png",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.dfad0b00.js",
     "static/css/2.55a93b64.chunk.css",
-    "static/js/2.f023a11f.chunk.js",
+    "static/js/2.df690f7a.chunk.js",
     "static/css/main.d703cf23.chunk.css",
-    "static/js/main.5973af50.chunk.js"
+    "static/js/main.97188954.chunk.js"
   ]
 }
