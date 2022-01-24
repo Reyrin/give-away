@@ -40,7 +40,7 @@ function App() {
                     <section className="steps">
                         <div className="container">
                             <div className="steps__content">
-                                <Stepper />
+                                <Stepper active={1} />
                                 <Step1 />
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function App() {
                     <section className="steps">
                         <div className="container">
                             <div className="steps__content">
-                                <Stepper />
+                                <Stepper active={2} />
                                 <Step2 />
                             </div>
                         </div>
@@ -62,7 +62,7 @@ function App() {
                     <section className="steps">
                         <div className="container">
                             <div className="steps__content">
-                                <Stepper />
+                                <Stepper active={3} />
                                 <Step3 />
                             </div>
                         </div>
@@ -73,7 +73,7 @@ function App() {
                     <section className="steps">
                         <div className="container">
                             <div className="steps__content">
-                                <Stepper />
+                                <Stepper active={4} />
                                 <Step4 />
                             </div>
                         </div>
@@ -84,7 +84,7 @@ function App() {
                     <section className="steps">
                         <div className="container">
                             <div className="steps__content">
-                                <Stepper />
+                                <Stepper active={5} />
                                 <Step5 />
                             </div>
                         </div>
